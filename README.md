@@ -4,15 +4,7 @@ Phone Tracker
 
 1. Visit the application in your web browser.
 
-2. Register for an account or log in with your credentials.
-
-3. Add devices to your account and configure their tracking settings.
-
-4. Start tracking your devices in real-time.
-
-5. Use the geofencing and alert features to monitor device movement.
-
-6. View the history of device locations on the user dashboard.
+2. Start tracking your phone number in real-time.
 
 ## Contributing
 
