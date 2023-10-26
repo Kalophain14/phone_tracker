@@ -1,5 +1,4 @@
-
-The Phone Tracker application is now running and accessible at `http://localhost:3000` by default. Make sure to customize the configuration according to your environment.
+Phone Tracker
 
 ## Usage
 
