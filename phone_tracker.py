@@ -36,4 +36,3 @@ folium.Marker([lat, lng], popup=location).add_to(myMap)
 
 # location html file will be created which will store the location
 myMap.save("Location.html")
-
