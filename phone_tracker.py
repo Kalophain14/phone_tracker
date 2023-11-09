@@ -6,10 +6,8 @@ from opencage.geocoder import OpenCageGeocode
 # Replace 'number' with the actual phone number you want to lookup
 number = "+2123456783"  # Replace with your phone number
 
-# Parse the phone number
 pepnumber = phonenumbers.parse(number, "US")
 
-# Get location information
 location = geocoder.description_for_number(pepnumber, "en")
 print(location)
 
@@ -21,7 +19,6 @@ print(carrier.name_for_number(service_pro, "en"))
 key = 'f9719fffa03f4d5eb1304ff5a581f14a'
 geocoder = OpenCageGeocode(key)
 
-# Query location information
 query = " ".join(location.split())
 results = geocoder.geocode(query)
 #print(results)
