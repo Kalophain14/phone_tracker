@@ -4,7 +4,7 @@ from phonenumbers import geocoder, carrier
 from opencage.geocoder import OpenCageGeocode
 
 # Replace 'number' with the actual phone number you want to lookup
-number = "+2123456783"  # Replace with your phone number
+number = "+2783798290"  # Replace with your phone number
 
 pepnumber = phonenumbers.parse(number, "US")
 
@@ -32,4 +32,4 @@ myMap = folium.Map(location=[lat, lng], zoom_start= 9)
 folium.Marker([lat, lng], popup=location).add_to(myMap)
 
 # location html file will be created which will store the location
-myMap.save("Location.html")
+myMap.save("location_test.html")
